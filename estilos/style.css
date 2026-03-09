@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*
+  Projeto: Site Multimarcas
+  Autor: Juca Soares
+  Descrição: Site de treino para o Curso de Engenharia de Software
+*/
+body {
+    background-color: rgb(169, 144, 20);
+    background-image: url("../img/fundook.jpg");
+}
