@@ -4,7 +4,45 @@
   Autor: Juca Soares
   Descrição: Site de treino para o Curso de Engenharia de Software
 */
+ * {
+  margin: 0px;
+  padding: 0px;
+ }
+
 body {
-    background-color: rgb(169, 144, 20);
-    background-image: url("../img/fundook.jpg");
+  background-color: blue;
+  background-image: url('../img/fundook.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: linear-gradient(to bottom, orange, black);
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+  padding: 15px;
+}
+
+header > p {
+  padding: 5px;
+}
+
+nav {
+  background-color: black;
+  padding: 3px;
+}
+nav > a {
+  background-color: rgba(167, 122, 39, 0.804);
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 2px;
 }
